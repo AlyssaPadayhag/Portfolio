@@ -1,0 +1,53 @@
+/* change the whole background and all the font */
+body {
+    background-color:rgb(255, 248, 239);
+    font-family: Verdana;
+}
+
+/* coloring the header and footer */
+header, footer {
+    background-color: skyblue;
+    color:rgb(21, 21, 77);
+    padding: 10px;
+}
+
+/* centering text headings */
+h1, h2, h3 {
+    text-align: center;
+}
+
+/* making h2 font smaller so it doesn't stand out too much */
+h2 {
+    font-size: 18px;
+}
+
+/* to emphasize sections */
+h3 {
+    background-color: skyblue;
+    padding: 10px;
+}
+
+/* some styling of image so it doesn't looks so plain */
+.profilepic {
+    border-radius: 10px;
+    display: block;
+    margin: 50px auto 50px auto;
+}
+
+/* centering all content */
+.centercontent {
+    width: 700px;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 20px 50px 20px 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+/* more footer styling */
+footer {
+    padding: 10px;
+    text-align: center;
+}
