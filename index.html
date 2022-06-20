@@ -4,8 +4,8 @@
 <head lang="en">
     <meta charset="utf-8">
     <meta name="viewport" content="wideth=device-width">
-    <title>Alyssa Padayhag | Full Stack Web Developer</title>
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <title>Alyssa Padayhag | Full Stack Web Developer</title> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
@@ -13,44 +13,82 @@
 
     <!-- header with logo and any navigation-->
     <header>
-        <h1>Alyssa Padayhag</h1>
-        <h2>Full Stack Web Developer</h2>
-        <nav>
-            <a href="/html-forms-22-8-assignment.html"><h5>M22.8 Assignment</h5></a>   
-        </nav>
+        <div class="row justify-content-center p-4">
+            <div class="col-5">
+                <h1>Alyssa Padayhag</h1>
+                <h2>Full Stack Web Developer</h2>
+            </div>
+        </div>
+        <!------- navigation ------->
+        <div class="row">
+            <div class="col">
+                <nav>
+                    <ul class="nav nav-pills justify-content-center">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Resume[PDF]</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
     </header>
 
     <!-- main content -->
-    <main>
-        <!-- main profile picture -->
-        <div >
-            <img src="images/profile-pic.jpg" width="200" class="profilepic" alt="Alyssa Padayhag's Profile Picture Smiling">
+    <main class="container">
+        <!------- images ------->
+        <div class="row justify-content-center p-4">
+            <div class="col-2">
+                <img src="images/pic-of-me-2.jpg" width="200" class="profilepic" alt="Alyssa Padayhag's Profile Picture Smiling">
+            </div>
+            <div class="col-2">
+                <img src="images/pic-of-me-2.jpg" width="200" class="profilepic" alt="Alyssa Padayhag's Profile Picture Smiling">
+            </div>
+            <div class="col-2">
+                <img src="images/pic-of-me-2.jpg" width="200" class="profilepic" alt="Alyssa Padayhag's Profile Picture Smiling">
+            </div>
+            <div class="col-2">
+                <img src="images/pic-of-me-2.jpg" width="200" class="profilepic" alt="Alyssa Padayhag's Profile Picture Smiling">
+            </div>
         </div>
-        
-        <div class="centercontent">
-            <!-- introduction-->
+            
+        <!------- about ------->
+        <div class="row justify-content-center p-4">
+            <div class="col-8">
+                <h2>About</h2>
+                <article>
+                    <p>
+                        I am currently a
+                        <a href="https://www.thinkful.com/" class="link-secondary text-decoration-none">Thinkful</a>
+                        student enrolled in their
+                        <a href="https://www.thinkful.com/bootcamp/web-development/" class="link-secondary text-decoration-none">Software Engineering</a>
+                        program.
+                    </p>
+                    <p>I have always been interested in computers and how they work since I can remember! I learned how to first code when MySpace
+                        was a big thing back in the day. I learned how to code HTML and CSS. In college, I then learned the basics of C, Java, PHP,
+                        SQL, mySQL, and even more HTML and CSS. Everyday I am learning something new, and I am excited to learn everything
+                        software development has to offer. It is very exciting to be able to create something or be apart of something big one day.</p>
+                </article>
+                </div>
+            </div>
+        </div>
+
+        <!------- skills ------->
+        <div class="row justify-content-center p-4">
+            <div class="col-8">
+            <h2>Skills</h2>
             <article>
-                <h3>My name is Alyssa, nice to meet you!</h3>
-                <p>I am a Thinkful student going through their Engineering Flex program.
-                    I recently just moved to a small village in Ohio from San Diego, CA , in June of 2021.
-                    Here are some of my skills:
-                </p>
-                <ul>
-                    <li>HTML, CSS, JavaScript</li>
-                    <li>C, C#, C++, Java</li>
-                    <li>PHP, SQL, mySQL</li>
-                    <li>Python</li>
-                </ul>
-            </article>
-    
-            <hr>
-            <!-- about section-->
-            <article>
-                <h3>About Alyssa</h3>
-                <p>I have always been interested in computers and how they work since I can remember! I learned how to first code when MySpace
-                    was a big thing back in the day. I learned how to code HTML and CSS. In college, I then learned how to use C, Java, PHP,
-                    SQL, mySQL, and even more HTML and CSS. Everyday I am learning something new, and I am excited to learn everything
-                    software development has to offer. It is very exciting to be able to create something or be apart of something big one day.</p>
                 <p>On my free time, I love to:</p>
                 <ul>
                     <li>play video games</li>
@@ -60,25 +98,27 @@
                 </ul>
                 <p>I also run game servers with my partner and am also learning everyday through that experience!</p>
             </article>
-    
-            <hr>
-            <!-- contact me section-->
-            <h3>Contact Me</h3>
+        </div>
+
+         <!------- contact ------->
+        <div class="row justify-content-center p-4">
+            <div class="col-8">
+            <h2>Contact</h2>
             <ol>
                 <li><a href="https://www.linkedin.com/in/alyssa-padayhag/" target="_blank">LinkedIn</a></li>
                 <li><a href="https://github.com/AlyssaPadayhag" target="_blank">GitHub</a></li>
                 <li><a href="mailto:alyssapadayhag@gmail.com">Email</a></li>
             </ol>
         </div>
-
     </main>
+
     <!-- footer section-->
     <footer>
-        <p>&copy; Alyssa Padayhag</p>
+        <p>&copy; Alyssa Padayhag 2022</p>
     </footer>
 
     <!-- any necessary javascript-->
     <script src="script.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>

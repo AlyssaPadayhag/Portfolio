@@ -1,0 +1,15 @@
+6-19-22 Major Update
+    - removed 22-8 assignment link in nav
+    - deleted 22-8 assignment html file
+    - added bootstrap
+    - added more images
+
+
+Website Plan:
+    One-Page concept
+        About
+        Skills
+        Work - Github
+        Contact - Email, Phone#, 
+        Resume[PDF]
+

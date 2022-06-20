@@ -1,18 +1,20 @@
 /* change the whole background and all the font */
 body {
-    background-color:rgb(255, 248, 239);
+    background-color:rgb(0, 0, 0);
     font-family: Verdana;
+    color: white;
 }
 
 /* coloring the header and footer */
 header, footer {
-    background-color: skyblue;
-    color:rgb(21, 21, 77);
     padding: 10px;
+    color: rgb(255, 200, 129);
 }
 
 /* centering text headings */
-h1, h2, h3 {
+h1, h2, h3, nav {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
     text-align: center;
 }
 
@@ -27,11 +29,14 @@ h3 {
     padding: 10px;
 }
 
+p {
+    color: white;
+}
+
 /* some styling of image so it doesn't looks so plain */
 .profilepic {
     border-radius: 10px;
     display: block;
-    margin: 50px auto 50px auto;
 }
 
 /* centering all content */
